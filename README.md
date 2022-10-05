@@ -1,4 +1,4 @@
-# Azure-Projects- Multi-stage pipeline using YAML file
+# Azure-Project- Multi-stage pipeline using YAML file
 
 ## This project will focus on how to use CI/CD Pipelines as Code with YAML for Azure Pipelines. 
 
