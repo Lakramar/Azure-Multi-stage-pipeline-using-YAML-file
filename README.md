@@ -8,7 +8,8 @@
 
 ###### Using YAML (Yet Another Markup Language). This allows us to access pipeline features as but with a markup file that can be managed like any other source control file. YAML build definitions can be added to a project by simply adding their source file to the root of the repository. Azure DevOps also provides default templates for popular project types, as well as a YAML designer to simplify the process of defining build and release tasks.
 
-*****************************************************************************
+***************************************************************************************
+## Steps needs to follow:
 
 * First we need to create SQL server, Azure webapp and Resource manager. We can also create this with the help of predefined template in azure portal.
 
