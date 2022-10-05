@@ -11,21 +11,21 @@
 ***************************************************************************************
 ## Steps needs to follow:
 
-###### * First we need to create SQL server, Azure webapp and Resource manager. We can also create this with the help of predefined template in azure portal.
+###### *  First we need to create SQL server, Azure webapp and Resource manager. We can also create this with the help of predefined template in azure portal.
 
-###### * Firewall settings to be made in Azure webapp to access the SQL server.
+###### *  Firewall settings to be made in Azure webapp to access the SQL server.
 
-###### * In Azure devops portal, under pipelines select asp.net project(Predefined for .net application)
+###### *  In Azure devops portal, under pipelines select asp.net project(Predefined for .net application)
 
-###### * Build and Test steps are already there in the readymade yaml file
+###### *  Build and Test steps are already there in the readymade yaml file
 
-###### * We need to add steps to create deployment
+###### *  We need to add steps to create deployment
 
-###### * Tasks added to create deployment
-         - After the build and test stage, need to add "publish artifact" stage
-         - Followed by the task add "Download build artifacts"
-         - Then add "azure app service deploy" task
+###### *  Tasks added to create deployment
+           - After the build and test stage, need to add "publish artifact" stage
+           - Followed by the task add "Download build artifacts"
+           - Then add "azure app service deploy" task
      
-###### * Once the pipeline ran successful then update the webapp connection string name . Need to take the the connection string name form src/webconfig
+###### *  Once the pipeline ran successful then update the webapp connection string name . Need to take the the connection string name form src/webconfig
 
-###### * Now the application got deployed to azure webapp and the data will be loaded to azure sql server aswell
+###### *  Now the application got deployed to azure webapp and the data will be loaded to azure sql server aswell
